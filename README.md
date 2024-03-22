@@ -1,4 +1,4 @@
-# Exporter
+# exporter-lite
 Export support in following format: (txt, csv, xls)
 1. Text file  
 2. CSV file 
@@ -16,10 +16,10 @@ allprojects {
 }
 ``` 
 #### Dependency
-[![](https://jitpack.io/v/appsfeature/exporter.svg)](https://jitpack.io/#appsfeature/exporter)
+[![](https://jitpack.io/v/appsfeature/exporter-lite.svg)](https://jitpack.io/#appsfeature/exporter-lite)
 ```gradle
 dependencies {
-    implementation 'com.github.appsfeature:exporter:x.y'
+    implementation 'com.github.appsfeature:exporter-lite:x.y'
 }
 ```   
 
@@ -120,21 +120,9 @@ For clear list of files.
 
 ## ChangeLog
 
-#### Version 1.2:
-* Library Size 5.8Mb
-* Supported format 'txt, csv, xls, xlsx'
-* compileSdkVersion 30
-* Library : org.apache.poi:poi:4.0.0, org.apache.poi:poi-ooxml:4.0.0
-
-#### Version 1.1:
-* Library Size 5.8Mb
-* Supported format 'txt, csv, xls'
-* compileSdkVersion 30
-* Library : poi-3.17.jar
-
 #### Version 1.0:
 * Initial build
 * Library Size
 * Supported format 'txt, csv, xls'
-* compileSdkVersion 28
+* compileSdkVersion 30
 * Library : poi-3.17.jar
