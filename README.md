@@ -4,7 +4,7 @@ Export support in following format: (txt, csv, xls)
 2. CSV file 
 3. Excel file 
  
-#### Library Size : 912KB
+#### Library Size : 527KB
   
 ## Setup 
 Add this to your project build.gradle
